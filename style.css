@@ -29,6 +29,9 @@ body {
     box-shadow: 0 4px 4px rgb(204, 204, 204, 0.8);
     z-index: 100;
 }
+.humburgry i {
+    display: none;
+}
 
 .desketop-meues {
     display: flex;
@@ -136,6 +139,15 @@ body {
 
 
 @media (max-width: 480px) {
+
+    .humburgry i {
+        display: flex;
+        font-size: 2rem;
+        position: absolute;
+       left: 90%;
+        top: 20%;
+        color: #fff;
+    }
 
     .nav-bar {
         display: none;

@@ -203,8 +203,8 @@ span {
         height: 100%;
     }
     .hero img {
-        width: 300px;
-        height: 320px;
+        width: 380px;
+        height: 395px;
         border: 10px solid #fff;
         border-radius: 50%;
     }
@@ -213,30 +213,12 @@ span {
         font-size: 1rem;
     }
     .text-hero p {
-        font-size: 0.9375rem;
+        font-size: 0.70rem;
+        font-weight: 700;
     }
-
-    .show-case {
-        width: 100%;
+    .btn-hero {
+        padding: 16px 20px;
     }
-    .boxesess {
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 50px;
-    }
-
-    .box-1 {
-        width: 20.75rem;
-        height: 26.1875rem;
-    }
-    .box-2 {
-        width: 20.75rem;
-        height: 20.6875rem;
-        position: relative;
-        top: 0;
-        left: 0;
-    }
- 
 }
 
 

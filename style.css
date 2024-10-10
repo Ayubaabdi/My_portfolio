@@ -120,8 +120,30 @@ body {
     transition: color all 0.45s ease-in ease-out;
     color: #ffa54d;;
 }
+.showcase {
+    position: relative;
+    height: 100vh;
+}
+.show-menu {
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3%;
+}
+.show-box_2 {
+  position: absolute;
+  top: 20%;
+  left: 60%;
+}
 
-
+.title {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 2rem;
+    cursor: pointer;
+    color: #ffa54d;
+    text-decoration: underline;
+}
 
 @media (min-width: 768px) {
     .hero {
@@ -173,6 +195,19 @@ body {
     }
     .btn-hero {
         padding: 16px 20px;
+    }
+    .showcase {
+        height: 100%;
+        margin-bottom: 10%;
+    }
+    .show-menu {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .show-box_2 {
+        position: relative;
+        top: 0;
+        left: 0;
     }
 }
 

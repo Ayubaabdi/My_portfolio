@@ -147,7 +147,8 @@ body {
 /* Skill section */
 
 .my-skills {
-    height: 70vh;
+    height: 60vh;
+    
 }
 .box-skilled {
     margin-top: 15%;
@@ -190,15 +191,14 @@ body {
     margin: 10px;
     border-radius: 5px;
 }
-.projects-box {
-    width: 24rem;
-    margin: auto;
+
+.project-design {
+    background-color: #f2f2f2;
+    width: 28rem;
+   
     display: flex;
     margin: 5rem;
     border-radius: 3px;
-}
-.project-design {
-    background-color: #f2f2f2;
 }
 
 .projects-text h2 {
@@ -226,7 +226,51 @@ body {
     outline: none;
 }
 
-@media(min-width:768px) {
+/* Contect Us */
+.contect-us {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), 
+    url("https://images03.nicepage.com/c461c07a441a5d220e8feb1a/1d7522477e8255a697949ad4/w4-min.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 25.6875rem;
+}
+.contect-about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10%;
+}
+.contect-about h4 {
+    font-size: 1.2rem;
+    color: #fff;
+    text-align: center;
+    font-weight: 300;
+}
+.icons {
+    padding-top: 1rem;
+   font-size: 2rem;
+   
+}
+.icons i {
+    color: #ffff;
+    margin-right: 1.2rem;
+}
+.icons i:hover {
+    color: gray;
+    cursor: pointer;
+}
+footer {
+    background-color: #1f203a;
+    text-align: center;
+    color: #f2f2f2;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+@media(max-width: 780px) {
     .hero {
         height: 100%;
     }
@@ -245,6 +289,43 @@ body {
         height: 100%;
         margin-bottom: 15%;
     } 
+ 
+    .projects {
+        height: 100%;
+    }
+    .project-sections {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .project-design {
+        background-color: #f2f2f2;
+        width: 90%;
+        margin: auto;
+        display: flex;
+        margin: 5rem;
+        border-radius: 3px;
+    }
+    .btn-project {
+        margin-top: 1rem;
+    }
+
+
+    .contect-about h4 {
+        font-size: 1.2rem;
+        color: #fff;
+        text-align: center;
+        font-weight: 300;
+    }
+    .contect-about {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 8rem;
+    }
     
 }
 @media (max-width: 480px) {
@@ -332,6 +413,14 @@ body {
     .projects-text {
         font-size: 1.2rem;
         line-height: 2;
+    }
+
+    
+    .contect-about h4 {
+        font-size: 1rem;
+        color: #fff;
+        text-align: center;
+        font-weight: 300;
     }
 }
 

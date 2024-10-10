@@ -160,11 +160,11 @@ body {
 }
 .boxing-skills_1 progress {
     width: 100%;
-    height: 40px;
- 
+    color: #ffa54d;
 }
-
-progress::-moz-progress-bar { background: rgb(132, 132, 188); }
+.boxing-skills_1 h4 {
+    color: #ffa54d;
+}
 
 @media(min-width:768px) {
     .hero {
@@ -176,6 +176,10 @@ progress::-moz-progress-bar { background: rgb(132, 132, 188); }
     .text-hero p {
         font-size: 0.9375rem;
     } 
+    .showcase {
+        height: 100%;
+        margin-bottom: 10%;
+    }
     
 }
 @media (max-width: 480px) {

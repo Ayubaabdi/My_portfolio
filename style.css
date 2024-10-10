@@ -170,7 +170,8 @@ body {
 /* my Projects */
 
 .projects {
-    height: 100vh;
+    height: 70vh;
+    margin-bottom: 5rem;
 
 }
 .project-sections {
@@ -218,6 +219,11 @@ body {
     border-radius: 3px;
     color: gray;
     font-size: 1rem;
+}
+.btn-project:hover {
+    background-color: #f2f2f2;
+    border: 1px solid gray;
+    outline: none;
 }
 
 @media(min-width:768px) {
@@ -319,6 +325,13 @@ body {
         height: 10rem;
         margin: 10px;
         border-radius: 5px;
+    }
+    .projects-text h2 {
+        font-size: 0.9375rem;
+    }
+    .projects-text {
+        font-size: 1.2rem;
+        line-height: 2;
     }
 }
 
